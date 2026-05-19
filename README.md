@@ -149,7 +149,9 @@ Compared to SARIMA, the ML approach captures short-term variations more accurate
 
 The main evaluation metric used in this project is:
 
+$$
 MAPE = \frac{1}{n}\sum_{t=1}^{n}\left|\frac{y_t-\hat{y}_t}{y_t}\right| \times 100
+$$
 
 (MAPE – Mean Absolute Percentage Error)
 
